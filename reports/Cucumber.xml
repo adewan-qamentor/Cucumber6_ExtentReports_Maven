@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="47.176">
+<testcase classname="Create Delete Bookmark Feature using DocString" name="Create and delete bookmark using DocString" time="46.922">
+<system-out><![CDATA[Given browser is "chrome"...................................................passed
+Given user navigates to the Box App.........................................passed
+Then user verify the "Box | Login" in the app...............................passed
+When user enter the correct "gujral608@gmail.com" and "Welcome@1234" and Login to the app.passed
+Then user verify the "All Files | Powered by Box" in the app................passed
+When user creates a new bookmark with url "www.random.com"..................passed
+And user enters the bookmark description as:................................passed
+Then user verifies the following success message:...........................passed
+When user deletes a bookmark................................................passed
+Then user verifies the "Item successfully moved to trash." deletion message.passed
+When user logout of the application.........................................passed
+Then user verify the "Box | Login" in the app...............................passed
+]]></system-out>
+</testcase>
+</testsuite>
